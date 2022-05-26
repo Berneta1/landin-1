@@ -1,0 +1,50 @@
+
+
+header {
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../imgs/ala\ de\ avion.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    margin: 0px;
+    font-weight: 400;
+}
+.items {
+    width: 1000px;
+    margin: 100px auto;
+}
+.thumbnail,
+.detalle { padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+}
+.products {
+    margin-bottom: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5)
+}
+
+
+.thumbnail {
+    vertical-align: top;
+}
+
+.detalle {
+    padding: 30px 20px;
+}
+
+
+.footer {
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(41, 103, 185);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
